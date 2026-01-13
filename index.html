@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    .top-bar {
+      background: #ffffff;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .top-bar a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #0066cc;
+    }
+
+    .pdf-container {
+      width: 100%;
+      height: calc(100vh - 56px);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Soyana Gurung Resume</span>
+    <a href="Soyana Gurung_Resume.pdf" download>Download PDF</a>
+  </div>
+
+  <div class="pdf-container">
+    <iframe src="Soyana Gurung_Resume.pdf"></iframe>
+  </div>
+
+</body>
+</html>
